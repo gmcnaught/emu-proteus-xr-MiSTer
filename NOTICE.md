@@ -1,9 +1,16 @@
 # Notices
 
-This repository is licensed under the GNU General Public License v3.0 or later (`LICENSE`),
-except where a file states otherwise.
+E-mu Proteus/1 XR core. Copyright (c) 2026 The synthcores contributors.
 
-| Component | Path | Author / origin | License |
+The source is in https://github.com/gmcnaught/synthcores under `cores/proteus/` (paths below are
+relative to that folder). This repository holds the built cores (`releases/*.rbf`), the MGL, the
+tools that build the system image the core loads (`tools/`) and the documentation. Its history
+before the move to synthcores still holds the source up to v0.2.0.
+
+The core is licensed under the GNU General Public License v3.0 or later (`LICENSE`), except where a
+file states otherwise.
+
+| Component | Path in the source | Author / origin | License |
 |---|---|---|---|
 | fx68k 68000 core (unmodified) | `mister/rtl/fx68k/` | Jorge Cwik | GPL-3.0 |
 | MiSTer framework (`sys/`) | `mister/sys/` | MiSTer-devel (Template_MiSTer) | GPL-2.0-or-later / GPL-3.0-or-later, per file |
